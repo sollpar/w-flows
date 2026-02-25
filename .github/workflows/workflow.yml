@@ -13,7 +13,7 @@ jobs:
       - name: Print Password
         run: echo '${{ secrets.PASSWORD }}'
       - name: Print GitHub
-        run: echo '${{ toJson(github) }}
+        run: echo '${{ toJson(github) }}'
   checkot:
     runs-on: ubuntu-latest
     steps:
